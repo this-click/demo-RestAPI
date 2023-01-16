@@ -2,6 +2,8 @@
 Practice project for getting data from a custom built REST API (sometimes) running on an EC2 instance.
 Usually I run it locally and update the BASE_URL accordingly.
 
+API repo: https://github.com/this-click/demo-pet-RestApi
+
 This app displays a list of 3 dogs retrieved from the API and a detailed view for each dog when clicked. 
 If GET was unsuccessful, display a relevant image.
 
