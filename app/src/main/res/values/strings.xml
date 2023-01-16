@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Demo Rest API</string>
+    <string name="dog_list">Dog List</string>
+    <string name="dog_details">Dog Details</string>
+</resources>

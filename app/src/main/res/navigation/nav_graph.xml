@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/dogListFragment">
+
+    <fragment
+        android:id="@+id/dogListFragment"
+        android:name="com.example.demorestapi.ui.main.DogListFragment"
+        android:label="@string/dog_list"
+        tools:layout="@layout/fragment_main">
+        <action
+            android:id="@+id/action_dogListFragment_to_dogDetailFragment"
+            app:destination="@id/dogDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/dogDetailFragment"
+        android:name="com.example.demorestapi.ui.main.DogDetailFragment"
+        android:label="@string/dog_details" >
+        <action
+            android:id="@+id/action_dogDetailFragment_to_dogListFragment"
+            app:destination="@id/dogListFragment"
+            app:popUpTo="@id/dogListFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>

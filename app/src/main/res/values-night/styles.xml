@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Widget.DemoApi.DogName.TextView" parent="Widget.MaterialComponents.TextView">
+        <item name="android:minHeight">@dimen/dp_48</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAppearance">?attr/textAppearanceHeadline5</item>
+        <item name="android:textColor">@color/purple_200</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_size</item>
+    </style>
+</resources>
