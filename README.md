@@ -1,4 +1,4 @@
-# demo-RestAPI-app
+# Retrofit Demo app
 Practice project for getting data from a custom built REST API (sometimes) running on an EC2 instance.
 Usually I run it locally and update the BASE_URL accordingly.
 
