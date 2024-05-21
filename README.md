@@ -1,5 +1,5 @@
 # Retrofit Demo app
-Client Android app to the API demo-pet-RestApi.
+Client Android app to the API "demo-RestAPI-server".
 
 The motivation behind this project was the need to have access to an API, while learning Android Basics with Kotlin.
 And what better way to have access than to build it yourself? :smile: 
